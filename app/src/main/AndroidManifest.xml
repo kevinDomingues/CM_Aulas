@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ipvc.cm.cm_aulas">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    cleartextTrafficPermitted="true"
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
